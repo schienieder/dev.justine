@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/dev.justine/static/css/main.b6549f80.css",
+    "main.js": "/dev.justine/static/js/main.8820ffd1.js",
+    "index.html": "/dev.justine/index.html",
+    "main.b6549f80.css.map": "/dev.justine/static/css/main.b6549f80.css.map",
+    "main.8820ffd1.js.map": "/dev.justine/static/js/main.8820ffd1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b6549f80.css",
+    "static/js/main.8820ffd1.js"
+  ]
+}
