@@ -41,7 +41,7 @@ const HeroComponent = () => {
                     </a>
                 </div>
                 <img 
-                    src="/Vector.svg" 
+                    src="Vector.svg" 
                     className="absolute scale-75 -bottom-72 -left-52 transform scale-x-[-1]"
                     alt="Vector"
                 />
@@ -49,7 +49,7 @@ const HeroComponent = () => {
             {/*  */}
             <div className="relative w-full flex justify-center items-center">
                 <img 
-                    src="/person.svg"
+                    src="person.svg"
                     className="scale-[.97]"
                     alt="Person Coding"
                 />
