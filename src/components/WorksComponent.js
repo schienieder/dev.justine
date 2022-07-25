@@ -25,7 +25,7 @@ const WorksComponent = () => {
                 </div>
                 {/*  */}
                 <img 
-                    src="work 1.jpg"
+                    src="https://schienieder.github.io/dev.justine/work 1.jpg"
                     className="justify-self-start scale-[.80]" 
                     alt="Marahuyo"
                 />
@@ -34,7 +34,7 @@ const WorksComponent = () => {
             <div className="grid grid-cols-2 place-items-center">
                 {/*  */}
                 <img 
-                    src="work 2.jpg"
+                    src="https://schienieder.github.io/dev.justine/work 2.jpg"
                     className="justify-self-end scale-[.80] border border-gray-300" 
                     alt="Cate"
                 />
