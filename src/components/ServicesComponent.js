@@ -9,8 +9,8 @@ const ServicesComponent = () => {
                     <h4 className="text-3xl font-black">Awesome Services</h4>
                     <p className="text-base">These are some of the things that I can do for my clients</p>
                     <a 
-                        href="https://schienieder.github.io/dev.justine/TORRES, JUSTINE RHEI - CV.pdf"
-                        download="TORRES, JUSTINE RHEI - CV.pdf"
+                        href="https://schienieder.github.io/dev.justine/TORRES, JUSTINE RHEI.pdf"
+                        download="TORRES, JUSTINE RHEI.pdf"
                         className="primaryButton flex items-center gap-x-2 mt-5"
                     > 
                         <svg 
