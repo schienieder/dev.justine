@@ -9,8 +9,8 @@ const ServicesComponent = () => {
                     <h4 className="text-3xl font-black">Awesome Services</h4>
                     <p className="text-base">These are some of the things that I can do for my clients</p>
                     <a 
-                        href="TORRES, JUSTINE RHEI - CV.PDF"
-                        download="TORRES, JUSTINE RHEI - CV.PDF"
+                        href="https://schienieder.github.io/dev.justine/TORRES,%20JUSTINE%20RHEI%20-%20CV.pdf"
+                        download="https://schienieder.github.io/dev.justine/TORRES,%20JUSTINE%20RHEI%20-%20CV.pdf"
                         className="primaryButton flex items-center gap-x-2 mt-5"
                     > 
                         <svg 
@@ -31,7 +31,7 @@ const ServicesComponent = () => {
                 <div></div>
                 <div className="w-80 bg-white shadow border-b border-gray-200 p-5 rounded-xl flex flex-col items-center gap-y-3 self-end">
                     <img 
-                        src="/coding.PNG"
+                        src="https://schienieder.github.io/dev.justine/coding.png"
                         className="w-28 h-28"
                         alt="Web Development"
                     />
@@ -39,7 +39,7 @@ const ServicesComponent = () => {
                 </div>
                 <div className="w-80 bg-white shadow border-b border-gray-200 p-5 rounded-xl flex flex-col items-center gap-y-3 self-start">
                     <img 
-                        src="user-interface.PNG"
+                        src="https://schienieder.github.io/dev.justine/user-interface.png"
                         className="w-28 h-28"
                         alt="UI/UX Design"
                     />
@@ -47,7 +47,7 @@ const ServicesComponent = () => {
                 </div>
                 <div className="w-80 bg-white shadow border-b border-gray-200 p-5 rounded-xl flex flex-col items-center gap-y-3 self-start">
                     <img 
-                        src="seo.PNG"
+                        src="https://schienieder.github.io/dev.justine/seo.png"
                         className="w-28 h-28"
                         alt="SEO"
                     />
