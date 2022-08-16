@@ -14,13 +14,17 @@ const HeroComponent = () => {
     }
 
     return (
-        <div className="dark w-full h-screen grid grid-rows-hero grid-cols-2 overflow-hidden">
+        <div className="dark w-full h-screen grid grid-rows-hero grid-cols-1 md:grid-cols-2 overflow-hidden">
             <Nav />
             {/*  */}
             <div className="relative w-full flex flex-col justify-center items-center">
-                <div className="flex flex-col items-start">
-                    <h4 className="text-4xl font-black tracking-wider">Web <span className="text-indigo-600">Dev Justine</span></h4>
-                    <p>A flexible developer that develops systems from start to finish</p>
+                <div className="flex flex-col items-center md:items-start px-5 md:px-0">
+                    <h4 className="text-2xl md:text-4xl font-black tracking-wider">Web <span className="text-indigo-600">Dev Justine</span></h4>
+                    <div className="flex flex-col items-start md:hidden mt-3">
+                        <p className="text-sm">A flexible developer that develop</p>
+                        <p className="text-sm">systems from start to finish</p>
+                    </div>
+                    <p className="hidden md:block text-base">A flexible developer that develop systems from start to finish</p>
                     <a
                         href="https://mail.google.com/mail/u/1/?pli=1#inbox?compose=GTvVlcSMVxZQjbMTZLtwwkxNJlRjGFQHjChxzGXGpvpcKtlZSrmVwRNNNBrtsjVjlrSkfpVXwdVkB"
                         target="_blank"
@@ -29,7 +33,7 @@ const HeroComponent = () => {
                     >
                         <svg 
                             xmlns="http://www.w3.org/2000/svg" 
-                            className="h-6 w-6 rotate-45" 
+                            className="h-5 w-5 md:h-6 md:w-6 rotate-45" 
                             fill="none" 
                             viewBox="0 0 24 24" 
                             stroke="currentColor" 
@@ -42,12 +46,12 @@ const HeroComponent = () => {
                 </div>
                 <img 
                     src="https://schienieder.github.io/dev.justine/Vector.svg" 
-                    className="absolute scale-75 -bottom-72 -left-52 transform scale-x-[-1]"
+                    className="absolute scale-x-125 md:scale-75 -bottom-52 md:-bottom-72 md:-left-52 transform md:scale-x-[-1]"
                     alt="Vector"
                 />
             </div>
             {/*  */}
-            <div className="relative w-full flex justify-center items-center">
+            <div className="relative hidden w-full md:flex justify-center items-center">
                 <img 
                     src="https://schienieder.github.io/dev.justine/person.svg"
                     className="scale-[.97]"
