@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/dev.justine/static/css/main.b6549f80.css",
-    "main.js": "/dev.justine/static/js/main.31a75d7e.js",
+    "main.css": "/dev.justine/static/css/main.ea5c5c53.css",
+    "main.js": "/dev.justine/static/js/main.a0d072bb.js",
     "index.html": "/dev.justine/index.html",
-    "main.b6549f80.css.map": "/dev.justine/static/css/main.b6549f80.css.map",
-    "main.31a75d7e.js.map": "/dev.justine/static/js/main.31a75d7e.js.map"
+    "main.ea5c5c53.css.map": "/dev.justine/static/css/main.ea5c5c53.css.map",
+    "main.a0d072bb.js.map": "/dev.justine/static/js/main.a0d072bb.js.map"
   },
   "entrypoints": [
-    "static/css/main.b6549f80.css",
-    "static/js/main.31a75d7e.js"
+    "static/css/main.ea5c5c53.css",
+    "static/js/main.a0d072bb.js"
   ]
 }
