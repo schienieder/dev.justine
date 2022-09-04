@@ -29,7 +29,7 @@ const ServicesComponent = () => {
             </div>
             <div className="w-full grid grid-cols-1 md:grid-cols-2 justify-items-center md:justify-items-start gap-y-8 md:gap-y-5">
                 <div></div>
-                <div className="w-52 md:w-80 bg-white shadow border-b border-gray-200 p-5 rounded-xl flex flex-col items-center gap-y-3 self-end">
+                <div className="w-52 md:w-72 bg-white shadow border-b border-gray-200 p-5 rounded-xl flex flex-col items-center gap-y-3 self-end">
                     <img 
                         src="https://schienieder.github.io/dev.justine/coding.png"
                         className="w-16 h-16 md:w-28 md:h-28"
@@ -37,7 +37,7 @@ const ServicesComponent = () => {
                     />
                     <p className="text-xs md:text-sm">I do frontend, backend and even fullstack development</p>
                 </div>
-                <div className="w-52 md:w-80 bg-white shadow border-b border-gray-200 p-5 rounded-xl flex flex-col items-center gap-y-3 self-start">
+                <div className="w-52 md:w-72 bg-white shadow border-b border-gray-200 p-5 rounded-xl flex flex-col items-center gap-y-3 self-start">
                     <img 
                         src="https://schienieder.github.io/dev.justine/user-interface.png"
                         className="w-16 h-16 md:w-28 md:h-28"
@@ -45,7 +45,7 @@ const ServicesComponent = () => {
                     />
                     <p className="text-xs md:text-sm">Creating web & mobile UI/UX designs from scratch</p>
                 </div>
-                <div className="w-52 md:w-80 bg-white shadow border-b border-gray-200 p-5 rounded-xl flex flex-col items-center gap-y-3 self-start">
+                <div className="w-52 md:w-72 bg-white shadow border-b border-gray-200 p-5 rounded-xl flex flex-col items-center gap-y-3 self-start">
                     <img 
                         src="https://schienieder.github.io/dev.justine/seo.png"
                         className="w-16 h-16 md:w-28 md:h-28"
